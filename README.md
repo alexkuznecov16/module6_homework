@@ -243,7 +243,7 @@ const degree = (x,n) => {
 ```
 
 ## functiom calling
-```
+
 Вызываем функцию с определенными аргументами.
 ```
 const degree = (x,n) => {
