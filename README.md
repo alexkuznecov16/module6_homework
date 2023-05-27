@@ -216,3 +216,46 @@ function numbers(start, end){
 
 numbers(-22,-24);
 ```
+
+
+# Exercise 5
+Напишите функцию, которая принимает два натуральных числа x и n и возвращает x в степени n. Иначе говоря, умножает x на себя n раз и возвращает результат.
+Используйте Arrow Function синтаксис.
+Протестируйте функцию на любых значениях и выведите результат в консоль.
+
+## function creating
+В самом начале создали стрелочную функцию, которая по тз. должна в виде параметров принимать x и n числа.
+```
+const degree = (x,n) => {
+}
+```
+
+## number checking
+В функции будет проверять число на позитивность. Если все x и n числа больше или равны 1 то выводится ответ: x в степени n;, в крайнем случае будет выводиться ошибка.
+```
+const degree = (x,n) => {
+    if (x >= 1 && n >= 1){
+        console.log(x**n)
+    } else{
+        console.log('\nError! The number is not a simple\n');
+    }
+}
+```
+
+## functiom calling
+```
+Вызываем функцию с определенными аргументами.
+```
+const degree = (x,n) => {
+    if (x >= 1 && n >= 1){
+        console.log(x**n)
+    } else{
+        console.log('\nError! The number is not a simple\n');
+    }
+}
+
+degree(2,2); // 4
+degree(4,2); // 16
+degree(0,10); // Error! The number is not a simple
+degree(5,5); // 3125
+```
