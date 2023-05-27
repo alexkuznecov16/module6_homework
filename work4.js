@@ -21,8 +21,12 @@ function numbers(start, end){
             } else{
                 nowNumber++; // after console.log we will minus - 1 for number
             }
-        } numCheck()
+        } numCheck();
     }, 1000) // repeat every 1000 ms (1 second)
 }
 
-numbers(-22,-24)
+numbers(-22,-24);
+
+// -22
+// -23
+// -24

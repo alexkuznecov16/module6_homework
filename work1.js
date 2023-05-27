@@ -19,13 +19,13 @@ function arrayCheck(myArray){
                 countOfNotEven += 1;
             }
         } else{
-            console.log(`${item} it's not a number`)
+            // console.log(`${item} it's not a number`)
         }
     } 
     
-    console.log(`Zero item = ${myArray[0]}`)
-    console.log(`Even count of numbers = ${countOfEven}`)
-    console.log(`Not even count of numbers = ${countOfNotEven}`)
+    console.log(`Zero item = ${myArray[0]}`); // Zero item is = true
+    console.log(`Even count of numbers = ${countOfEven}`); // Even count of numbers = 4
+    console.log(`Not even count of numbers = ${countOfNotEven}`); // Not even count of numbers = 2
 }
 
 arrayCheck(myArray);

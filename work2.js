@@ -5,14 +5,14 @@
 
 function getSimpleNum(number){
     if (number >= 1 && number <= 1000){
-        console.log(`Number (${number}) is simple.\n`)
+        console.log(`Number (${number}) is simple.\n`);
     } else if (number >= 1000){
-        console.log(`Error! \n The number (${number}) cannot be more than 1000.\n`)
+        console.log(`Error! The number (${number}) cannot be more than 1000.\n`);
     } else{
-        console.log(`Error! \n The number (${number}) is not simple, because it is less than 1.\n`)
+        console.log(`Error! The number (${number}) is not simple, because it is less than 1.\n`);
     }
 }
 
-getSimpleNum(10)
-getSimpleNum(10000)
-getSimpleNum(-12)
+getSimpleNum(10); // Number (10) is simple.
+getSimpleNum(10000); // Error! The number (10000) cannot be more than 1000.
+getSimpleNum(-12); // Error! The number (-12) is not simple, because it is less than 1.

@@ -10,4 +10,4 @@ function a(num_A){
 let numAdding = a(10); // argument for first(a) function
 let result = numAdding(5); // argument for first function in function (a)
 
-console.log(result);
+console.log(result); // 15
