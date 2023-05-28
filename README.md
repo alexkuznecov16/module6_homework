@@ -237,7 +237,7 @@ const degree = (x,n) => {
     if (x >= 1 && n >= 1){
         console.log(x**n)
     } else{
-        console.log('\nError! The number is not a simple\n');
+        console.log('\nError! The number is not a natural\n');
     }
 }
 ```
@@ -250,7 +250,7 @@ const degree = (x,n) => {
     if (x >= 1 && n >= 1){
         console.log(x**n)
     } else{
-        console.log('\nError! The number is not a simple\n');
+        console.log('\nError! The number is not a natural\n');
     }
 }
 
